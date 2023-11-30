@@ -1,5 +1,6 @@
 
 <?php
+
 try
 {
 // On se connecte à MySQL
@@ -24,7 +25,6 @@ die('Erreur : '.$e->getMessage());
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/carousel/">
 <link rel="stylesheet" href="carousel.css">
 <link href="bootstrap.min.css" rel="stylesheet">
-<link href="bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     
@@ -34,20 +34,20 @@ die('Erreur : '.$e->getMessage());
 
 
 <?php
-include("nav.php")
+include("nave3.php")
 ?>
 
 
 
 <!-- a propos du lycee -->
 
-<section>
+<section><br><br>
 <div class="rows-nous">
 
 <div class="col-lg-6 qo">
 <h1>Qui sommes-nous</h1><br>
-<p>Nous sommes le collèle [Nom de l'etablissement], un établissement scolaire situé dans la ville de Bobo Dioulasso Nous acceuillons des élèves de la  6ème à la Tle et nous avons à coeur de leur offrir une éducation de qualité et un environnement propice à leur épanouissement</p>
-<button><a href="">Savoir +</a></button>
+<p>Le lycée bobo est bien plus qu'un simple établissement d'enseignement. C'est une communauté dynamique et engagée, où les élèves ont la possibilité de s'impliquer dans une variété d'activités périscolaires, de clubs et d'organisations. Que vous soyez intéressé par les sciences, la technologie ou le sport, il y a toujours quelque chose à faire pour vous divertir et vous épanouir. Nous encourageons nos élèves à explorer leurs passions <br> et à développer leur leadership dans un environnement stimulant et bienveillant.</p>
+<a href=""><button class="btn btn-primary">Savoir +</button></a>
 </div>
 
 
@@ -131,7 +131,7 @@ include("nav.php")
 
         <div class="row">
             <div class="dispo-col">
-            <img  src="discipline.jpg" alt="" />
+            <img  src="disci1.jpeg" alt="" />
                 <div class="layer">
                 <h3>DISCIPLINE</h3>
                 </div>
@@ -146,7 +146,7 @@ include("nav.php")
             </div>
             
             <div class="dispo-col">
-          <img class="ine" src="scc.jpg" alt="" />
+          <img class="ine" src="succes.jpg" alt="" />
                 <div class="layer">
                 <h3>SUCCES</h3>
                 </div>
@@ -156,7 +156,7 @@ include("nav.php")
 
         </div>
 
-    </section>
+    </section><br><br>
 
 
 
@@ -202,7 +202,104 @@ include("nav.php")
     
     
 <!-- a propos du lycee -->
-<section class="carou">
+
+
+
+
+<section class="container cls">
+<div class="p-3 mb-2 bg-success bg-gradient text-white"><h1>Le cadre scolaire</h1></div><br>
+  
+<div class="row-jar">
+
+<div>
+  <div> <img src="classe2.jpg" alt=""></div>
+  <h1> Salle de classe</h1>
+<p>Le lieu où les élèves acquièrent de nouvelles <br>connaissances et compétences.</p>
+ 
+</div>
+
+<div>
+<h1>Le jardin scolaire</h1>
+<p>Les jardins scolaires sont un excellent outil <br>d'apprentissage pluridisciplinaire. <br> Ils permettent aux étudiants de travailler <br>sur leurs connaissances</p>
+<div> <img src="jardin.jpg" alt=""></div>
+
+</div>
+
+
+</div>
+
+</section><br><br><br>
+
+ <section>
+<div class="container cadre">
+  
+<div class="row-cadre2">
+
+<div>
+  <div> <img src="infirm.jpg" alt=""></div>
+  <h1> Salle d'infirmerie</h1>
+<p>Elle contribue à l'analyse des besoins particuliers et aux conditions de réalisation de l'intégration avec l'ensemble de l'équipe éducative. elle participe à la mise en œuvre des soins, des aides techniques et des aménagements nécessaires.</p>
+ 
+</div>
+
+<div>
+<h1>Salle d'informatique</h1>
+<p>Elle a construit le passé, construit le présent et construira certainement le futur. Sans informatique pas de nouvelles technologies et pas de nouvelles technologies pas d'avenir meilleur. L'informatique est un domaine incontournable dans la vie car sans elle pas de vie</p>
+<div> <img src="informa.jpg" alt=""></div>
+
+</div>
+
+
+</div>
+</div>
+ </section><br><br>
+
+
+
+<section class="sport">
+<h1>Les discipline sportives</h1>
+
+<div class="card text-center">
+ 
+  <div class="card-body">
+    <h3 class="card-title">Des moments de detentes et de loisirs</h3>
+    <p class="card-text text1">Le sport scolaire contribue à promouvoir le respect de l'éthique et des valeurs éducatives et humanistes du sport. Il joue un rôle déterminant dans l'accès des jeunes au sport et donne sens au "vivre ensemble" et à l'apprentissage de la vie associative.</p>
+    <a href="#" class="btn btn-primary" data-mdb-ripple-init>En savoir+</a>
+ 
+
+</div><br>
+
+
+<div class="row-spo">
+
+<div class="sport-col">
+<img src="foot.jpg" alt="">
+<h2>Terrain de foot</h2>
+<p>le sport est essentiel au bien-être <br> des jeunes</p>
+</div>
+
+<div class="sport-col">
+<img src="piscine.jpg" alt="">
+<h2>Salle de natation</h2>
+<p>Apprendre à nager et ainsi assurer sa <br>sécurité  en milieu aquatique.</p>
+</div>
+
+<div class="sport-col">
+<img src="vollet.jpg" alt="">
+<h2>Terrain de voley ball</h2>
+<p> il permet de stimuler les capacités <br> cardiovasculaires et respiratoires <br> ainsi que l'endurance.</p>
+</div>
+
+<div class="sport-col">
+<img src="basqette.jpg" alt="">
+<h2>terrain de basket</h2>
+<p>C'est un sport qui équilibre le collectif <br>et l'individu et favorise la prise <br> de responsabilité.</p>
+</div>
+
+</div>
+</section><br><br>
+
+<!-- <section class="carou">
 
 <h1>PRESENTATION DU LYCEE</h1>
 
@@ -272,9 +369,8 @@ include("nav.php")
   </div>
 
 </div>
-</div>
+</div> -->
 
-    <!-- partie famille et amis -->
 
 
 <section>
@@ -286,7 +382,7 @@ include("nav.php")
   <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
     <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
       <h1 class="display-4 fw-bold lh-1 text-body-emphasis">L'histoire du lycée</h1>
-      <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+      <p class="lead">Le concept du lycée nationale au Burkina Faso est relativement lointain. Il a été lancé en 2003 par le ministère de l'Éducation nationale de l'Alphabétisation et la Promotion des Langues Nationales, dans le but de combler le manque d'établissements secondaires scientifiques dans le pays.</p>
       <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
         <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Primary</button>
         <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
@@ -299,7 +395,7 @@ include("nav.php")
 </div> 
 
 
-
+<div class="evolution">
 <div class="b-example-divider"></div>
 
 <div class="container col-xxl-8 px-9 py-6">
@@ -309,109 +405,50 @@ include("nav.php")
     </div>
     <div class="col-lg-6">
       <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Evolution du lycée</h1>
-      <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+      <p class="lead">Au fil des années, les lycées scientifiques nationaux ont connu un grand succès, avec des résultats académiques exceptionnels et des anciens élèves qui poursuivent des carrières scientifiques et techniques à travers le monde. Le lycée scientifique national de Bobo Dioulasso est notamment devenu célèbre pour avoir remporté plusieurs jeux olympiades, notamment en mathématiques, en physique et en français. Aujourd'hui, les lycées scientifiques nationaux sont considérés comme des institutions d'excellence en matière d'éducation scientifique au Burkina Faso.
+
+</p>
       <div class="d-grid gap-2 d-md-flex justify-content-md-start">
         <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">En savoir +</button>
       </div>
     </div>
   </div>
 </div>
+</div>
+</section><br>
+
+<section class="commenter">
+<h1>Laisser un commentaire</h1>
+
+<form method="post" action="traitement4.php">
+  <!-- Nom input -->
+  <div data-mdb-input-init class="form-outline mb-4">
+    <input type="texte" name="nom" id="form1Example2" class="form-control" />
+    <label class="form-label" for="form1Example2">Nom</label>
+  </div>
+
+  <!-- EMAIL input -->
+  <div data-mdb-input-init class="form-outline mb-4">
+    <input type="email" name="email" id="form1Example1" class="form-control" />
+    <label class="form-label" for="form1Example1">Address Email</label>
+  </div>
+  
+  <!-- Message input -->
+  <div data-mdb-input-init class="form-outline mb-4">
+    <textarea type="texte" name="mess" class="form-control" id="form4Example3" rows="4"></textarea>
+    <label class="form-label" for="form4Example3">commentaire</label>
+  </div>
+
+  <!-- 2 column grid layout for inline styling -->
+  <div class="row mb-4">
+    <div class="col d-flex justify-content-center">
+    
+
+  <!-- Submit button -->
+  <button data-mdb-ripple-init type="submit" name="submit" class="btn btn-primary btn-block">Sign in</button>
+</form>
 
 </section>
-<!-- 
-<section class="urt">
-
-<div class="">
-
-<article class="my-3" id="spinners">
-      <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
-      </div>
-      
-      
-      <div class="bd-example-snippet bd-code-snippet"><div class="bd-example m-0 border-0">
-        
-        <div class="spinner-grow text-primary" role="status">
-          <span class="visually-hidden">Loading...</span>
-        </div>
-        <div class="spinner-grow text-secondary" role="status">
-          <span class="visually-hidden">Loading...</span>
-        </div>
-        <div class="spinner-grow text-success" role="status">
-          <span class="visually-hidden">Loading...</span>
-        </div>
-        <div class="spinner-grow text-danger" role="status">
-          <span class="visually-hidden">Loading...</span>
-        </div>
-        <div class="spinner-grow text-warning" role="status">
-          <span class="visually-hidden">Loading...</span>
-        </div>
-        <div class="spinner-grow text-info" role="status">
-          <span class="visually-hidden">Loading...</span>
-        </div>
-        <div class="spinner-grow text-light" role="status">
-          <span class="visually-hidden">Loading...</span>
-        </div>
-        <div class="spinner-grow text-dark" role="status">
-          <span class="visually-hidden">Loading...</span>
-        </div>
-        </div></div>
-
-      </div>
-    </article>
-</div>
-
-
-
-<div class="">
-<article class="my-3" id="spinners">
-      <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
-      
-        
-      </div>
-
-      <div>
-        <div class="bd-example-snippet bd-code-snippet"><div class="bd-example m-0 border-0">
-        
-        <div class="spinner-border text-primary" role="status">
-          <span class="visually-hidden">Loading...</span>
-        </div>
-        <div class="spinner-border text-secondary" role="status">
-          <span class="visually-hidden">Loading...</span>
-        </div>
-        <div class="spinner-border text-success" role="status">
-          <span class="visually-hidden">Loading...</span>
-        </div>
-        <div class="spinner-border text-danger" role="status">
-          <span class="visually-hidden">Loading...</span>
-        </div>
-        <div class="spinner-border text-warning" role="status">
-          <span class="visually-hidden">Loading...</span>
-        </div>
-        <div class="spinner-border text-info" role="status">
-          <span class="visually-hidden">Loading...</span>
-        </div>
-        <div class="spinner-border text-light" role="status">
-          <span class="visually-hidden">Loading...</span>
-        </div>
-        <div class="spinner-border text-dark" role="status">
-          <span class="visually-hidden">Loading...</span>
-        </div>
-        </div></div>
-
-        </div>
-    </article>
-    </div>
-
-
-
-
-
-
-</section> -->
-
-
-  <script src="bootstrap.bundle.min.js"></script>
-
 
 
 <?php

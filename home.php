@@ -3,7 +3,7 @@
 session_start();
 try
 {
-$bdd = new PDO('mysql:host=localhost;dbname=personnel', 'root', '');
+$bdd = new PDO('mysql:host=localhost;dbname=test', 'root', '');
 }
 catch(Exception $e)
 {
@@ -47,12 +47,13 @@ die('Erreur : '.$e->getMessage());
         </nav>
 
         <div class="text-box">
-           <marquee behavior="" direction="right"><h1>Compagnie de Transport et Tourisme</h1></marquee> 
+           <marquee behavior="" direction="right"><h1>Bienvenu au lycée (nom du lycée)</h1></marquee> 
            
-           <h2>Faites le tour du Burkina Faso</h2>
+           <h2>Explorez les merveilles</h2>
            
-           <marquee behavior="" direction="left"> <p>Le Burkina Faso, un pays de diversité touristique avec de forte potentiel culturel nous invites a le visité.</p></marquee>
+           <marquee behavior="" direction="left"> <p>Apprendre s'epanouir et  partager des experiences tous en vous connectant sur notre site.</p></marquee>
            
             <a href="connect.php" class="hero-btn">S'inscrire</a>   <a href="inscri.php" class="hero-btn">Se connecter</a>
         </div>
     </section><br><br>
+    

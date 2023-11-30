@@ -18,7 +18,6 @@ $req->execute([
 ]);
 $user= $req->fetch();
 
-
 $recu= $bdd->prepare("SELECT statut FROM users WHERE email= :email AND pass= :pass");
 $recu->execute([
     "email"=>$Email_address,
@@ -30,7 +29,7 @@ if($user['email'] AND $user['pass'] AND $statut['statut'] == 'administrateur'){
     session_start();
     $_SESSION['email']= $Email_address;
     $_SESSION['pass']= $password;
-    header('Location: tableau.php');
+    header('Location: tablau.php');
     
     
 } else if ($user['email'] AND $user['pass'] AND $statut['statut'] == 'utilisateur'){

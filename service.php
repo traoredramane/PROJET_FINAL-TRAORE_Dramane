@@ -1,5 +1,6 @@
 
 <?php
+
 try
 {
 // On se connecte à MySQL
@@ -33,80 +34,19 @@ die('Erreur : '.$e->getMessage());
 
 
 <?php
-include("nav.php")
+include("nave2.php")
 ?> 
 
-<section class="services">
-<h2 class="heading">Notre service</h2>
-<div class="row">
 
-
-
-
-<div class="box">
-  <a href="discution.php"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
-<h3>Information sur le collège (historique, valeur, equipe pedagogique)</h3>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat tempora velit blanditiis quod earum amet vel nostrum hic explicabo libero neque quaerat, cum vero ut quasi b?</p>
-</div>
-
-
-
-<div class="box">
-<a href=""><i class="fa-solid fa-gifts"></i></a>
-<h3>Programme scolaire et activité proposées(clubs, sorties éducatives)</h3>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat tempora velit blanditiis quod earum amet vel nostrum hic explicabo libero neque quaerat, cum vero ut qua?</p>
-</div>
-
-
-
-<div class="box">
-<a href=""><i class="fa-solid fa-address-card"></i></a>
-<h3>Inscription en ligne et suivie du dossier d'admission</h3>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat tempora velit blanditiis quod earum amet vel nostrum hic explicabo libero neque quaerat, cum vero ut quasi ?</p>
-</div>
-
-
-
-<div class="box">
-<a href=""><i class="fa-solid fa-spell-check"></i></a>
-<h3>Consultation des emplois du temps et notrs des élèves</h3>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat tempora velit blanditiis quod earum amet vel nostrum hic explicabo libero neque quaerat, cum vero ut quasi beat?</p>
-</div>
-
-
-
-<div class="box">
-<a href=""><i class="fa-regular fa-comments"></i></a>
-<h3>Communication avec les enseignants et la direction via une messagerie interne</h3>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat tempora velit blanditiis quod earum amet vel nostrum hic explicabo libero neque quaerat, cum vero ut quasi bea?</p>
-</div>
-
-
-<div class="box">
-<a href=""><i class="fa-solid fa-dice-d20"></i></a>
-<h3>Les possibilités</h3>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat tempora velit blanditiis quod earum amet vel nostrum hic explicabo libero neque quaerat, cum vero ut quasi beatae dicta laboriosam tempore?</p>
-</div>
-
-
-<div class="col-lg-6 col-xxl-6 my-5 mx-auto">
-  <div class="d-grid gap-2">
-    <a href=""><button class="btn btn-outline-secondary" type="button">En savoir +</button></a>
-  </div>
-</div>
-</div>
-
-
-</section>
 
 <!-- notre equipe pedagogique -->
 
 <div classe="container">
 
 
-<section class="services">
+<section class="services ">
 <h2 class="heading">Notre équipe</h2>
-<div class="row">
+<div class="row ger">
 
 
 
@@ -133,24 +73,141 @@ include("nav.php")
 </div>
 
 
+<div class="gerant"><a href=""><button class="btn btn-primary">Savoir+</button></a></div><br>
 </div>
 
-<div class="col-lg-1 col-xxl-6 my-5 mx-auto">
-  <div class="d-grid gap-2">
-    <a href=""><button class="btn btn-outline-secondary" type="button">En savoir +</button></a>
-    
-    
-  </div>
-</div>
 
-</section>
+</section><br><br>
 
 
 </div>
 
 <!-- notre equipe pedagogique -->
 
+
+
+<section class="container cls">
+<div class="p-3 mb-2 bg-dark bg-gradient text-white"><h1>Activitées extra scolaire</h1></div><br><br>
+  
+<div class="row-jar">
+
+<div>
+  <div> <img src="danse.jpg" alt=""></div><br>
+  <h1>Les plays-backs </h1>
+<p>L’émission de feedbacks est souvent considérée comme un élément clé pour renforcer la motivation et soutenir la réussite des élèves</p>
+ 
+</div>
+
+<div>
+<h1>Les interclasses</h1>
+<p>la rencontre de jeux interclasses c’est bien autre chose. Il s’agit essentiellement: De favoriser le développement de l’esprit d’équipe (y compris par des équipes interclasses) </p><br>
+<div> <img src="usibf.png" alt=""></div>
+
+</div>
+
+
+</div>
+
+</section><br><br><br>
+
+
+
+<section>
+  <div class="extra">
+ 
+  <div class="extra1">
+    <img src="suivie.jpg" alt="">
+  </div>
+
+  <div class="extra2">
+    <h1>​Valeurs & Mission</h1>
+    <p>Au Lycée Scientifique National de Bobo Dioulasso, nous sommes convaincus que chaque élève a en lui un potentiel unique, que nous nous efforçons de développer à travers un enseignement rigoureux et adapté.</p><br>
+
+    
+    <p>La réussite de nos élèves est notre priorité, c'est pourquoi nous mettons tout en œuvre pour leur offrir un environnement d'apprentissage stimulant et des outils pédagogiques performants.Au-delà de la simple acquisition de connaissances, notre mission est de former des citoyens responsables et engagés, capables de contribuer au développement de leur pays et du monde</p><br>
+
+    <p>Les lycées scientifiques nationaux ont pour but de former des élèves talentueux dans les domaines des mathématiques, des sciences physiques, de la chimie et de la biologie. Nous voulons donner à nos étudiants les outils nécessaires pour poursuivre des carrières scientifiques et techniques. Nous avons également pour mission de promouvoir l'éducation des filles dans les domaines scientifiques, où elles sont souvent sous-représentées.</p>
+
+</div>
+ 
+
+  </div>
+</section><br><br>
+
+
+<section class="services geran">
+<h2 class="heading-zeran">Notre service</h2>
+<div class="row">
+
+
+
+
+<div class="box">
+  <a href="discution.php"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
+<h3>Information sur le collège (historique, valeur, equipe pedagogique)</h3>
+
+</div>
+
+
+
+<div class="box">
+<a href=""><i class="fa-solid fa-gifts"></i></a>
+<h3>Programme scolaire et activité proposées(clubs, sorties éducatives)</h3>
+
+</div>
+
+
+
+<div class="box">
+<a href=""><i class="fa-solid fa-address-card"></i></a>
+<h3>Inscription en ligne et suivie du dossier d'admission</h3>
+
+</div>
+
+
+
+<div class="box">
+<a href=""><i class="fa-solid fa-spell-check"></i></a>
+<h3>Consultation des emplois du temps et notrs des élèves</h3>
+
+</div>
+
+
+
+<div class="box">
+<a href=""><i class="fa-regular fa-comments"></i></a>
+<h3>Communication avec les enseignants et la direction via une messagerie interne</h3>
+
+</div>
+
+
+<div class="box">
+<a href=""><i class="fa-solid fa-dice-d20"></i></a>
+<h3>Les possibilités</h3>
+
+</div>
+ 
+
+
+</section><br>
+
+<!-- les logos du ministère -->
+
+<section>
+  <div class="rows-logo">
+  <div><a href=""><img src="fonction.jpg" alt=""></a></div>
+    <div><a href=""><img src="unicef.png" alt=""></a></div>
+    <div><a href=""><img src="jeunesse.jpg" alt=""></a></div>
+    <div><a href=""><img src="unesco2.jpg" alt=""></a></div>
+  </div>
+</section><br><br>
+<!-- les logos du ministère -->
+
+
+<!-- 
 <div class="b-example-divider"></div>
+
+
 
   <div class="container px-4 py-5" id="hanging-icons">
     <h2 class="pb-2 border-bottom">SERVICE</h2>
@@ -203,7 +260,7 @@ include("nav.php")
 
 
 
-
+ -->
 
 
 <section class="docu">
@@ -222,15 +279,15 @@ include("nav.php")
 </div>
 
 <div class="not2">
-<i class="fa-regular fa-folder-open do1"></i>
-<h2>Status</h2>
-<p>Regardez et mettre des status <br> pour vos contacts</p>
+<i class="fa-solid fa-check-double do1"></i>
+<h2>Resultat scolaire</h2>
+<p>Voire les notes et<br> resultats d'exament</p>
 <a href=""><button class="btn btn-primary" type="button">Suivre</button></a>
 
 </div>
 
 <div class="not3">
-<i class="fa-regular fa-bell do1"></i>
+<i class="fa-solid fa-book do1"></i>
 <h2>Bibliothèque</h2>
 <p>Vous trouverez plusieurs livre <br> et documents des cours ici qui<br> aiderons les élèves</p>
 <a href=""><button class="btn btn-primary" type="button">Suivre</button></a>
@@ -239,6 +296,32 @@ include("nav.php")
 
 </section><br><br>
 
+<section class="container">
+<div class="comment">
+  <h2 class="temoin">Les Temoignages</h2>
+  <table>
+  <thead>
+<h1></h1>
+<h3></h3>
+<p></p>
+
+</thead><br>
+<tbody><br>
+<?php 
+  $req = $bdd->query("SELECT * FROM comment");
+  while($user= $req->fetch()){
+?>
+
+<hr>
+<h1><?php echo $user['nom'] ?></h1>
+<h3><?php echo $user['email'] ?></h3>
+<p><?php echo $user['message'] ?></p><br>
+
+</div>
+<?php } ?>
+</tbody>
+</table>
+</section><br><br>
 
 <?php
 include("footer.php")

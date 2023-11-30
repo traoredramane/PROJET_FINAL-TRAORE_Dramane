@@ -1,8 +1,9 @@
 <?php
+session_start();
 try
 {
 // On se connecte à MySQL
-$bdd = new PDO('mysql:host=localhost;dbname=dramane', 'root', '');
+$bdd = new PDO('mysql:host=localhost;dbname=test', 'root', '');
 } 
 catch(Exception $e)
 {
@@ -61,8 +62,15 @@ die('Erreur : '.$e->getMessage());
  <nav class="navbar">
 <a href="index.php">ACCEUIL</a>
  <a href="service.php">SERVICES</a>
- <a href="propo.php">A PROPOS</a>
+ <a href="propo.php">A PROPOS</a>           
  <a href="connexion.php">NOUS CONTACTER</a>
+ <?php
+                
+                if ($_SESSION['email']) {
+                    echo $_SESSION['email'];
+                    echo "<button style='margin-left: 20px; top:-50px; margin-right: 40px; height: 30px; background: red; border-radius: 5px; border: 2px solid wheat; text-align:center; font-size: 5px;'><a style='text-align: center; font-size: 1rem; text-decoration: none; color: white;' href='home.php'> Deconnection</a></button>";
+ }?>
+ 
  </nav>
 
  <i class="fa fa-solid fa-bars"></i>

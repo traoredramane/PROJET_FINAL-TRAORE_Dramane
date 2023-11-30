@@ -33,63 +33,100 @@ include("nav.php")
       <img src="ami2.png" class="d-block mx-lg-auto img-fluid nez" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
     </div>
     <div class="col-lg-6">
-      <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">A PROPOS</h1>
-      <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+      <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">RÈGLEMENT INTÉRIEUR</h1>
+      <p class="lead">Article 1: Le présent règlement intérieur s'applique à tous les lycées privé SYA</p>
+      <p class="lead">Article 2: Conformément à la loi d'orientation de l'éducation en son article 13, le système éducatif burkinabè a pour finalités de faire du jeune Burkinabè un citoyen responsable, producteur et créatif. Il vise essentiellement à assurer un développement intégral et harmonieux de l'individu, notamment en :</p>
+     
+      <p class="lead"></p>
       <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">En savoir +</button>
+        <a href=""><button type="button" class="btn btn-primary btn-lg px-4 me-md-2">En savoir +</button></a>
       </div>
     </div>
   </div>
 </div>
 
 
-</section>
+</section><br>
+
+<section class="dete">
+  <h1>Les sorties de detentes</h1>
+<div class="row-detent">
+
+<div class="dete-col">
+  <h3>Les cascades de Banfora</h3><br>
+  <div> <img src="cascade.jpg" alt=""></div><br>
+  <p>Organiser chaque année par les élèves du lycée
+  </p>
+</div>
+
+
+<div class="dete-col">
+  <h3>Les pics de Sindou</h3><br>
+ <div> <img src="pic.jpg" alt=""></div><br>
+  <p>Un site touristique qui attire plusieurs touristes
+  </p>
+</div>
+
+
+<div class="dete-col">
+  <h3>Le bus Scolaire</h3><br>
+  <div><img src="bus.jpg" alt=""></div><br>
+  <p>Il est reservé pour les sorties des élèves
+  </p>
+</div>
+
+
+</div>
+</section><br>
 
 
 <section class="container">
 <div class="portfolio">
-<h2 class="heading">our portfolio</h2>
+<h2 class="heading">Notre gallérie</h2>
 <div class="rows">
 
 <div class="box">
-<div><img src="suivie.jpg" alt="image"></div>
+<div><img src="musique.jpg" alt="image"></div>
 </div>
 
 
 <div class="box">
-<div><img src="suivie.jpg" alt="image"></div>
+<div><img src="danse.jpg" alt="image"></div>
 </div>
 
 
 <div class="box">
-<div><img src="suivie.jpg" alt="image"></div>
+<div><img src="show.jpeg" alt="image"></div>
 </div>
 
 
 <div class="box">
-<div><img src="suivie.jpg" alt="image"></div>
+<div><img src="ensei.jpg" alt="image"></div>
 </div>
 
 
 <div class="box">
-<div><img src="suivie.jpg" alt="image"></div>
+<div><img src="biblio.jpg" alt="image"></div>
 </div>
 
 
 <div class="box">
-<div><img src="suivie.jpg" alt="image"></div>
+<div><img src="usibf.png" alt="image"></div>
 </div>
 
 </div>
 </div>
-</section>
-
+</section><br><br>
+<!-- 
 <div class="fa-3x">
   <i class="fa-solid fa-triangle-exclamation fa-fade"></i>
   <i class="fa-solid fa-skull-crossbones fa-fade"></i>
   <i class="fa-solid fa-desktop-arrow-down fa-fade"></i>
   <i class="fa-solid fa-i-cursor fa-fade" style="--fa-animation-duration: 2s; --fa-fade-opacity: 0.6;" ></i>
-</div>
+</div> -->
+
+
+
 
 
 <script src="bootstrap.bundle.min.js"></script>

@@ -145,8 +145,8 @@
 <div class="head1">
 
   <div class="head">
-    <h1>Bienvenu sur la page</h1>
-    <p>Communauté, vivez en communauté, discuté, apprenez et <br> partager des experiences tous en vous cnnextant <br>sur le reseau communautaire.</p>
+    <h1>Bienvenu au lycée (nom du lycée)</h1>
+    <p>Apprendre, s'epanouir et partager des experiences tous en vous connectant <br>sur notre site.</p>
   </div>
 <div class="head2">
 <img src="hed.png" alt="">

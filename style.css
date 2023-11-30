@@ -4,7 +4,7 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
-    text-transform: capitalize;
+  
     border: none;
     outline: none;
     transition: all 0.3s linear;
@@ -27,7 +27,7 @@ html{
 header {
 min-height: 100vh;
 width: 100%;
-background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(etat.png);
+background-image: linear-gradient(rgba(4, 9, 30, 0.571),rgba(4, 9, 30, 0.522)),url(etat.png);
 background-position: center;
 background-size: cover;
 position:  relative;
@@ -64,7 +64,7 @@ position:  relative;
 }
 
 .hout img{
-    width: 100px;
+    width: 150px;
 }
 
 
@@ -73,7 +73,7 @@ position:  relative;
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(succes.jpg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.399),rgba(4,9,30,0.7)),url(succes.jpg);
     background-position: center;
     background-size: cover;
     position:  relative;
@@ -160,6 +160,102 @@ nav .fa{
 /* navbar du home page */
 
 
+
+
+/* navbar2 du home page2 */
+
+.header2 {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.504),rgba(4, 9, 30, 0.462)),url(suivie.jpg);
+    background-position: center;
+    background-size: cover;
+    position:  relative;
+}
+
+
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+}
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.text-box{
+    width: 40%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+text-box h1 {
+    font-size: 62px;
+}
+
+text-box p {
+    margin: 10px 0 40px; 
+    font-size: 14px;
+    color: #fff;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}  
+.hero-btn:hover{
+    border: 1px solid #fff;
+    background: #f44336;
+    transition: 1s;
+}
+
+nav .fa{
+    display: none;
+}
+/* navbar2 du home page2 */
+
+
+
+
 /* partie se connecter et s'enregistrer */
 
 .conec form{
@@ -191,66 +287,41 @@ nav .fa{
     color: blue;
 }
 
+.eleve form{
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.commenter form{
+padding-left: 300px;
+padding-right: 300px;
+}
+.commenter h1{
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.comment h2{
+    font-size: 50px;
+    font-weight: 700;
+    color: #5c9f24;
+}
+
+
+
+.comment img{
+    border-radius: 50%;
+width: 200px;
+
+}
+.comment{
+    color: #fff;
+    background: #333;
+    text-align: center;
+    padding: 10% 10%;
+}
 /* pages s'inscrire et se connecter a la page */
-
-
-
-
-
-
-
-
-
-
-
-/* partie navbar */
-/* 
-nav {
-    display: flex;
-    padding: 2% 6%;
-    justify-content: space-between;
-    align-items: center;
-}
-nav img{
-    width: 150px;
-}
-.nav-links {
-    flex: 1;
-    text-align: right;
-}
-.nav-links ul li{
-    list-style: none;
-    display: inline-block;
-    padding: 8px 12px;
-    position: relative;
-}
-.nav-links ul li a{
-    color: rgb(92, 92, 233);
-    text-decoration: none;
-    font-size: 16px;
-    font-family: 'Times New Roman', Times, serif;
-}
-.nav-links ul li::after{
-    content: '';
-    width: 0%;
-    height: 2px;
-    background: #f44336;
-    display: block;
-    margin: auto;
-    transition: 0.5s;
-}
-.nav-links ul li:hover::after{
-    width: 100%;
-} */
-/* fin partie navbar */
-
-
-/* navbar222 */
-
-
-/* navbar222 */
-
-/* carousel partie */
 
 .col-lg-10{
     margin-left: 130px;
@@ -270,17 +341,18 @@ nav img{
     margin-left: 70px;
     margin-right: 70px;
 }
-/* 
-.qo{
+
+.qo a{
     
-    border-radius: 3px;
-    border: 1px solid black;
-   padding: 7% 4%;
-   height: 69vh;
-     background-color: rgb(211, 199, 184);
-} */
+    text-decoration: none;
+} 
+
+
+.qo a button{
+   padding: 10px 30px;
+} 
 .qo p{
-    font-size: 30px; 
+    font-size: 23px; 
     color: black; 
     font-weight: 50px; 
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -291,6 +363,7 @@ nav img{
     color: rgb(132, 6, 6);  
     text-align: center;
     font-size: 60px;
+    font-weight: 600;
     font-family: 'Times New Roman', Times, serif;
 }
 .qo button a{
@@ -353,6 +426,7 @@ h3{
 }
 .dispo-col img {
     width: 100%;
+    height: 400px;
     display: block;
 }
 .layer {
@@ -366,8 +440,10 @@ h3{
 }
 .layer:hover{
    /* background: rgb(234, 130, 11);  */
-   background: rgba(226,0,0,0.7);
+   background: rgba(226, 0, 0, 0.5);
 }
+
+
 .layer h3 {
     width: 100%;
     font-weight: 500;
@@ -383,7 +459,10 @@ h3{
 .layer:hover h3{
    bottom: 49%; 
    opacity: 1;
-}
+} 
+
+ 
+
 
 /* partie communauté */
 
@@ -680,8 +759,8 @@ text-decoration: none;
  
  .ins h1{
      text-align: center;
-     padding-bottom: 25px;
-     color: #f44336;
+    font-weight: 600;
+     color: #fff;
      font-family: 'Times New Roman', Times, serif;
  }
  
@@ -703,6 +782,13 @@ text-decoration: none;
 
 
 /* page service */
+
+.clc{
+    
+    font-weight: 600 ;
+    text-align: center;
+   
+}
 .bi {
     font-size: 70px;
    color: rgba(0,0,0,0.7);
@@ -714,6 +800,24 @@ text-decoration: none;
 .bi2{
     font-size: 70px;
     color: rgba(0,0,0,0.7);
+}
+.ger{
+   min-height: 80vh;
+    background: #33333393;
+}
+
+.geran{
+    min-height: 100vh;
+     background: #5b9f2449;
+ }
+.gerant{
+text-align: center;
+margin-left: 450px;
+}
+
+.ger button{
+    padding: 10px 40px;
+  
 }
 
 
@@ -733,13 +837,24 @@ text-decoration: none;
     
    
 }
+
+
+.heading-zeran {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #f44336;
+    margin: 3 rem auto;
+    font-weight: 700;
+}
 .heading {
     text-align: center;
     font-size: 2.5rem;
-    color: #5c9f24;
+    color: black;
     margin: 3rem auto;
+    font-weight: 700;
 }
 .services .row .box a i{
+    background-color: #fff;
     font-size: 3rem;
     border-radius: 50%;
     border: 0.1rem solid var(--th-color);
@@ -751,13 +866,27 @@ text-decoration: none;
     box-shadow: 0 1rem 1rem  rgb(30, 165, 30);
 }
 .services .row .box h3{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin: 1.5rem;
     color: black;
+    font-weight: 600;
 }
 .services .row .box p{
     font-size: 1.1rem;
 }
+
+/* les logos du ministère */
+.rows-logo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.rows-logo img{
+    width: 150px;
+    height: 100px;
+}
+/* les logos du ministère */
+
 
 /* service pedagogique */
 
@@ -777,7 +906,36 @@ text-decoration: none;
 
 
 
-/* porfolio partie */
+/* a propos partie */
+
+.dete h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.dete h3{
+    font-weight: 400;
+}
+.dete p{
+    font-size: 20px;
+    font-weight: 200;
+}
+.row-detent{
+display: flex;
+justify-content: space-around ;
+}
+
+.row-detent img{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+.row-detent img:hover{
+    transform: scale(0.96); 
+}
+
 .portfolio {
     padding: 2rem 0;
 }
@@ -789,11 +947,16 @@ text-decoration: none;
 }
 .portfolio .rows .box img{
     width: 100%;
+    height: 200px;
     object-fit: cover;
 }
 .portfolio .rows .box img:hover{
     transform: scale(0.96);
 }
+
+/* a propos partie */
+
+
 
 /* partie contact et localisation */
 
@@ -851,17 +1014,175 @@ text-decoration: none;
 
 
 
+/* les discipline sportives */
+
+.sport{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.sport h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+
+.sport h3{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.row-spo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-spo p {
+   text-align: center;
+   font-size: 20px;
+}
+.sport-col h2{
+    padding-top: 30px;
+    font-weight: 600;
+}
 
 
 
+.sport-col img {
+    width: 340px;
+    height: 300px;
+    object-fit: cover;
+    box-shadow: 0 0.2rem 0.5rem  rgb(141, 11, 11);
+    padding: 1rem;
+    
+}
+.sport-col img:hover{
+    box-shadow: 0 2rem 1rem  rgb(141, 11, 11);
+}
+
+.text1{
+    font-size: 25px;
+    font-family: sans-serif;
+    color: #5c9f24;
+}
+.row-spo img:hover{
+    transform: scale(0.96);
+}
+/* les discipline sportives */
 
 
 
+/* parttie classe et jardin du lycee */
+
+.row-jar{
+    display: flex;
+    justify-content: space-around;
+}
+.row-jar img{
+    width: 500px;
+    height: 300px;
+
+    animation: zoomIn 1s ease forwards, floatImage 4s ease-in-out infinite;
+animation-delay: 2s, 3s;
+    
+}
+.row-jar h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+
+.row-jar p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 20px;
+}
+
+.cls{
+    font-weight: 600 ;
+    text-align: center;
+}
+
+.extra{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.extra1 img{
+    width: 600px;
+    height: 650px;
+}
+
+.extra2 h1{
+    font-weight: 600;
+    font-size: 50px;
+text-align: center;
+margin: 2rem;
+    
+}
+
+
+.extra2 p{
+    font-weight: 400;
+text-align: center;
+font-size: 18px;
+margin: 2rem;
+    
+}
+
+/* parttie classe et jardin du lycee */
 
 
 
+/* partie infirmerie et informatique */
 
 
+.row-cadre2{
+    display: flex;
+    justify-content: space-around;
+}
+.row-cadre2 img{
+    width: 500px;
+    height: 300px;
+
+    animation: zoomIn 1s ease forwards, floatImage 4s ease-in-out infinite;
+animation-delay: 2s, 3s;
+    
+}
+.row-cadre2 h1{
+   
+    font-size: 50px;
+    font-weight: 600;
+}
+
+
+.row-cadre2 p{
+   
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.cadre{
+    font-weight: 600 ;
+    text-align: center;
+   
+}
+
+.evolution img{
+    
+    animation: zoomIn 1s ease forwards, floatImage 4s ease-in-out infinite;
+animation-delay: 2s, 3s;
+}
+
+/* partie infirmerie et informatique */
 
 
 
